@@ -5,3 +5,8 @@ Desktop.ini
 ~$*
 *.tmp
 .yandex-disk
+
+# Local copies of copyrighted textbooks (see books/README.md)
+books/*.pdf
+books/*.djvu
+books/*.epub
