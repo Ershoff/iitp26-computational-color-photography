@@ -1,0 +1,11 @@
+---
+description: Visual style of IITP'26 lecture decks, cloned from taught L1+L2.
+globs: weeks/**/slides.md,weeks/**/build_lec*.py,weeks/**/brief.md,templates/стиль-слайдов.md
+alwaysApply: false
+---
+
+При сборке или правке слайдов сначала читать скил [`.cursor/skills/iitp-slides/SKILL.md`](.cursor/skills/iitp-slides/SKILL.md), затем [templates/стиль-слайдов.md](templates/стиль-слайдов.md).
+
+Клон **`Презентации/Lec_1,2_intro2color.pptx`** (Simple Light, 10″×5.625″, Lato, чёрное на белом) — в нём и Л1, и Л2, как они читались. Не клонировать `Lec_2_linear_model.pptx`. Основной макет — `TITLE_ONLY` **третьего мастера** (`slideLayout23`, две линейки колонтитулов + плейсхолдер тела idx=1). Первое `TITLE_ONLY` в `prs.slide_layouts` — пустое, его не брать. Текст писать в body-плейсхолдер, не только `add_textbox`. Списки не на `TITLE_AND_BODY`. Картинка справа: 5.273″ / 1.269″. Крупный вопрос — 30 pt в теле. Заголовок 0.355″ / 0.463″. Одна мысль, 3–5 коротких строк, источник 11 pt. Фигуры из `Lec_1,2` (BRDF, LMS, Планк, локус, CMF) не перерисовывать серыми блоками. Титул IITP, без логотипов ТМШ.
+
+Личный скил `pptx` (Anthropic) — только QA, не сборка «с нуля» через pptxgenjs.

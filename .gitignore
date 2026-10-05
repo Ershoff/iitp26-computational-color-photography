@@ -10,3 +10,16 @@ Desktop.ini
 books/*.pdf
 books/*.djvu
 books/*.epub
+
+# Full textbook/arxiv page dumps used only to crop lecture figures
+weeks/03/figures/book/
+weeks/03/figures/paper/
+weeks/03/figures/2110.11255.pdf
+weeks/03/figures/_cover_*.jpg
+weeks/03/figures/_cover_*.png
+weeks/03/figures/from_l12/
+
+# Working copies of the L3 deck; taught file is Lec_3_linear_model.pptx
+Презентации/Lec_3_linear_model_new.pptx
+Презентации/Lec_3_linear_model_final.pptx
+Презентации/Lec_3_linear_model_built.pptx
